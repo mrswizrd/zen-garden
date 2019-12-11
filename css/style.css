@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-image: url("../img/huntington.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 40pt;
+    text-transform: uppercasele;
+    text-shadow: 6px 4px rgba(0, 0, 0, 0.404);
+}
+
+header h2{
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 10px;
+    padding: 50px 80px;
+    background-image: url("../img/zen.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -1px;
+    background-size: 10%;
+    font-size: 20pt;
+}
+
+head title img {
+    position: left;
+    height: 20px;
+    width: 20px;
+}
+
+.summary p {
+     padding-top: 25px;
+}
+
+body {
+    background-color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+section div{
+    margin: 0 50px;
+    font-size: 14pt;
+    color: rgba(26, 24, 24, 0.432);
+}
+
+div {
+    font-size: 14pt;
+    color: rgba(26, 24, 24, 0.432);
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 14pt;
+    color: rgba(0, 0, 0, 0.884);
+}
+
+p {  
+    margin-bottom: 10px;
+    font-family: 'IBM Plex Mono';
+    margin-top: 0;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 14px;  
+} 
+
+#zen-supporting {
+    
+    font-family: 'IBM Plex Mono';
+    margin-top: 0;
+    font-size: 14px; 
+    color: darkslategrey;
+}
+
+#zen-explanation {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+
+.participation h3 p {
+    justify-content: left;
+    background-color: hsl(149, 83%, 14%);
+    background: rgba(0, 151, 19, 0.3); 
+    margin-bottom: 0%;
+    margin-top: 0%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/huntington.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.benefits {
+    justify-content: center;
+    background-color:rgba(52, 70, 49, 0.801);
+    margin-top: 0%;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+p[role=contentinfo] {
+    background-color: rgba(62, 88, 57, 0.705);
+    background-image: url(../img/bamboo.png);
+    background-repeat: no-repeat;
+    font-family: 'IBM Plex Mono', monospace;
+    background-size: cover;
+    width: 100%;
+}
+
+.design-selection ul li {
+    flex: container;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+}
+
+/* li {
+    display: table-column;
+    width: 45%;
+    padding: 15px;
+    border-bottom: 1px solid #42414191;
+    align-content: center;
+} */
+
+
+.requirements p {
+    /* margin-left: 50px; */
+}
+
+.requirements h3 {
+    margin-left: 50px;
+}
+
+.resources {
+    justify-content: center;
+    background: rgba(49, 156, 63, 0.7); 
+    padding-bottom: 20px;
+}
+
+.design-selection {
+    width: 100%;
+    justify-content: center;
+    background: rgb(216, 213, 213);
+    /* padding-bottom: 20px; */
+    grid-template-columns: minmax(150px, 1.33fr) minmax(150px, 2.33fr);
+}
+    
+.archives {
+    justify-content: center;
+    background: rgb(216, 213, 213);
+    padding-bottom: 20px;
+}
+
+h1{
+    display: inline-block;
+    margin-top: 0;
+    padding-top: 100px;
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px black;
+    font-family: 'Roboto';
+} 
+
+h2 { 
+    display: block;
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    font-family: 'Satisfy';
+    font-weight: 200;
+} 
+
+[role=article]{
+    padding-top: 5px;
+    background-size: contain;
+}
+
+/* [role=contentinfo] {
+    padding-left: 100px;
+   
+    
+} */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#zen-participation {
+    color: white;
+    background: rgba(55, 87, 57, 0.76) url("../img/bamboo.png");
+    opacity: 80%;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+} 
+
+#zen-participation a{
+    color: black;
+}  
+
+.wrapper [role="navigation"] ul{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    
+}
+
+#zen-benefits{
+    color: white;
+    background: rgba(55, 87, 57, 0.76) url("../img/bamboo.png");
+    opacity: 80%;
+    padding-bottom: 5px;
+}
+
+#zen-requirements p:nth-of-type(5){
+    color: darkslategrey;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    background: rgba(66, 136, 72, 0.76);
+    opacity: 80%;
+}
+
+#zen-requirements p:nth-of-type(5) a{ 
+    color: white;
+    float: center;
+    font-size: 45px;
+    font-family: 'satisfy';
+} 
+
+#zen-requirements p:nth-of-type(5) a:hover{
+    text-decoration: underline;
+}
+
+#zen-requirements p{
+    padding-left: 100px;
+}
+
+footer{
+    text-align: center;
+    height: 38px;
+    background: rgb(29, 65, 53);
+} 
+
+footer a{
+    color: white;
+    padding: 10px 10px;
+}  
+
+footer a:hover{ 
+    color: darkslategrey;
+}
+
+i{ 
+    padding-top: 10px;
+} 
+
+#design-selection h3{
+    display: none;
+    font-size: 14pt;
+} 
+
+#design-selection{
+    display: flex;
+    box-sizing: border-box;
+    position: cover;
+    font-size: 14pt;
+} 
+
+#design-selection ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: rgb(203, 216, 198);
+}
+
+#design-selection ul li {
+    font-family: 'IBM Plex Mono';
+    font-size: 11px;
+    display: flex;
+    border-top: solid 1px darkslategrey;
+    width: 50%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+#design-selection ul li a{ 
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.design-name {
+    letter-spacing: 0;
+    font-size: 13px;
+    font-family: 'Roboto';
+    color: black;
+}
+
+.designer-name {
+    font-size: 10px;
+    font-family: 'IBM Plex Mono';
+    color: rgb(27, 26, 26);
+}  
+
+#design-archives h3 {
+    display: none;
+}
+
+#design-archives ul {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: rgb(203, 216, 198);
+} 
+
+nav{
+    width: 100%;
+}
+
+#design-archives ul li { 
+    font-family: 'IBM Plex Mono';
+    display: flex;
+    border-top: solid 1px darkslategrey;
+    width: 50%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
+#design-archives ul li a { 
+    color: darkslategrey;
+}
+
+#zen-resources h3 { 
+    display: none;
+} 
+
+#zen-resources ul { 
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+    list-style-type: none;
+    opacity: 90%;
+    background-color:rgba(41, 75, 44, 0.76);
+    background-image: url(../img/bamboo.png);
+}
+
+#zen-resources ul li { 
+    font-family: 'IBM Plex Mono';
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+} 
+
